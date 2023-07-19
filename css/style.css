@@ -1,0 +1,894 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* nav bar section start */
+nav {
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    min-height: 90px;
+}
+
+.nav-container {
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+}
+
+.logo-title h1 {
+    color: #0B0223;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.Gamer-title {
+    color: #F948B2
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+
+.list-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 43%;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 15px;
+}
+
+.list-img h5 {
+    color: #3C354F;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.you-tube {
+    color: #F61C0D;
+    font-size: 1.5rem;
+}
+
+.fa-tiktok {
+    font-size: 1.5rem;
+}
+
+/* nav bar section end */
+
+
+/* banner part start */
+.banner {
+    background: #FFF;
+    background-image: url(../images/Group\ 14.png);
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+    margin: auto;
+}
+
+.banner-left {
+    width: 50%;
+}
+
+.banner-left h2 {
+    color: #0B0223;
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-left h1 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.banner-right {
+    width: 50%;
+}
+
+.banner-right img {
+    width: 100%;
+
+}
+
+.banner-icon {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.banner-icon span {
+    padding: 5px;
+    margin-left: 5px;
+    color: #534C64;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+
+.btn-primary {
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    padding: 10px 40px;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.btn-secondary {
+    border-radius: 48px;
+    background: #4EC5F7;
+    padding: 10px 40px;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* banner part end */
+
+
+/* online games part start   */
+
+
+.online-games {
+    width: 1140px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.online-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-1 {
+    width: 20%;
+    position: relative;
+}
+
+.card-1 img {
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    height: 85%;
+    border-radius: 16px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 5px solid #FF42A5;
+    cursor: pointer;
+}
+
+.contant {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-1:hover .overlay {
+    opacity: 1
+}
+
+.online-games .online-title {
+    text-align: center;
+    color: #0B0223;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.online-games .online-description {
+    text-align: center;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px;
+}
+
+.online-games .online-title span {
+    color: #F948B2;
+}
+
+/* online games part end  */
+
+
+/* play games part start */
+.play-games {
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.play-games-left {
+    margin-left: 160px;
+    margin-top: 200px;
+    width: 28%;
+    text-align: center;
+}
+
+.play-games-right {
+    width: 50%;
+}
+
+.play-games-title {
+    color: #0B0223;
+    font: 2rem;
+    font-weight: 700;
+}
+
+.play-games-title span {
+    color: #F948B2;
+    font-size: 2rem;
+    font-family: 500;
+}
+
+.play-games-description {
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.contant title {
+    color: #F948B2;
+    background-color: transparent;
+}
+
+.play-secondry-img img {
+    width: 40%;
+    height: 50%;
+}
+
+.play-primary-img img {
+    width: 85%;
+}
+
+.play-primary-img {
+    position: absolute;
+}
+
+.play-secondry-img {
+    height: 50%;
+    position: relative;
+    bottom: -330px;
+    left: -70px;
+
+}
+
+
+/* play games part end */
+
+
+/* career part start */
+.carrer-part {
+    width: 1140px;
+    margin: auto;
+    margin-top: 310px;
+    height: 300px;
+
+}
+
+
+.carrer-1 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 20px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid grey;
+    text-align: center;
+}
+
+.carrer-2 {
+    width: 100%;
+    margin-left: 30%;
+}
+
+.carrer-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+
+button:hover {
+    border-radius: 48px;
+    border: 2px solid #FF42A5;
+    color: #FF42A5;
+    transition: 0.3s ease;
+}
+
+/* career part end */
+
+
+/* footer part start */
+footer {
+    margin-top: 30px;
+    background: #0B0223;
+    min-height: 300px;
+}
+
+.footer-container {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.footer-title {
+    color: white;
+}
+
+.footer-1 {
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+
+
+
+.footer-1 h1 {
+    color: white;
+}
+
+.footer-1 span {
+    color: #F948B2;
+}
+
+.footer-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 1.1rm;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+
+.item-title {
+
+    padding-right: 20px;
+}
+
+.brand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.fa-brand-1 {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.fa-brand-1 .fa {
+    display: none;
+}
+
+.footer-item-2 {
+    color: white;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.last-item {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    color: #f8f8f8;
+}
+
+
+
+
+/* mobile larger responsive */
+@media screen and (max-width: 576px) {
+
+    .nav-container,
+    .list-item,
+    .banner-container,
+    .online-card {
+        flex-direction: column;
+    }
+
+    .list-item {
+        margin-top: 30px;
+        margin-bottom: 20px;
+
+    }
+
+    .list-item a {
+        padding-bottom: 20px;
+    }
+
+    .list-img {
+        width: 120%;
+
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .banner-container h2 {
+        margin-top: 30px;
+        font-size: 1.7rem;
+    }
+
+    .banner-container h1 {
+        font-size: 2rem;
+    }
+
+    .banner-right img {
+        width: 70%;
+    }
+
+    .banner-left {
+        width: 50%;
+    }
+
+    .btn-primary {
+        margin-bottom: 20px;
+    }
+
+    .online-games {
+        width: 100%;
+    }
+
+    .online-games .online-title {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 700;
+        padding-top: 10px;
+    }
+
+    .online-games .online-description {
+        text-align: center;
+        color: #534C64;
+        font-size: 12px;
+        font-weight: 400;
+        padding: 20px;
+    }
+
+    .card-1 {
+        width: 70%;
+    }
+
+    .card-1 img {
+        width: 100%;
+    }
+
+    .card-1 {
+        margin-bottom: 40px;
+    }
+
+    .card-1 p {
+        font: 12px;
+    }
+
+    .play-games {
+        width: 100%;
+        flex-direction: column-reverse;
+
+    }
+
+    .play-games h1 {
+        margin-top: 60px;
+        width: 100%;
+        margin-left: -70px;
+
+    }
+
+    .play-games p {
+        width: 70%;
+        margin-left: -40px;
+    }
+
+    .play-primary-img {
+        position: absolute;
+        ;
+    }
+
+    .play-secondry-img img {
+        position: relative;
+        top: -100px;
+    }
+
+    .play-games-left {
+        width: 60%;
+
+    }
+
+    .play-games-description {
+        width: 30%;
+    }
+
+    .carrer-part {
+        width: 90%;
+        margin-top: 30px;
+        margin-left: 5px;
+        margin-right: -900px;
+    }
+
+    .carrer-container {
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(3, auto);
+        gap: 2px;
+    }
+    .carrer-container button{
+        margin: 10px;
+       
+    }
+    .carrer-container button h3{
+        font-size: 10px;
+    }
+
+    .carrer-1 {
+        gap: 10px;
+        grid-auto-rows: 20px;
+        padding: 0 5px;
+        border: 0.2px solid gray;
+        border-radius: 46px;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .carrer-1 img {
+        width: 20%;
+    }
+
+    .carrer-1 h3 {
+        font-size: 12px;
+        font-weight: 400;
+        padding-right: -10px;
+    }
+
+    .carrer-2 {
+        margin-left: 3px;
+    }
+    .carrer-3{
+        padding: 4px;
+    }
+
+    footer {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .footer-container {
+        width: 50%;
+        padding-top: 20px;
+    }
+
+    .footer-item {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-item .item-title{
+        padding: 10px;
+    }
+
+    .footer-container .footer-item {
+        width: 160%;
+        font-size: 1rem;
+        margin-top: 10px;
+        margin-left: -50px;
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+
+    .brand {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-item-2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 190%;
+        margin-left: -50px;
+        font-size: 12px;
+    }
+    .footer-item-2 span{
+        padding: 10px;
+    }
+
+    .fa-brand-1 {
+        margin: 20px;
+    }
+
+    .last-item {
+        width: 160%;
+        font-size: 9px;
+        margin-bottom: 30px;
+    }
+
+    footer {
+        margin-top: -80px;
+    }
+
+    .footer-1 img {
+        margin-left: -25px;
+    }
+
+
+
+}
+
+
+
+
+
+/* tab responsive  */
+
+
+@media screen and (min-width: 576px) and (max-width: 900px) {
+
+    .nav-container,
+    .list-item {
+        flex-direction: column;
+    }
+
+    .list-item {
+        margin-top: 30px;
+        margin-bottom: 20px;
+
+    }
+
+    .list-item a {
+        padding-bottom: 20px;
+    }
+
+    .list-img {
+        width: 80%;
+    }
+
+    .banner-container {
+        width: 100%;
+    }
+
+    .banner-right img {
+        width: 80%;
+        margin: auto;
+    }
+    .overlay {
+        height: 75%;
+    }
+
+    .online-games {
+        width: 90%;
+
+    }
+
+    .online-card {
+        width: 60%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card-1 {
+        width: 90%;
+        margin: auto;
+    }
+
+    .card-1 img {
+        width: 100%;
+    }
+
+    .play-games {
+        margin-top: 20px;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .play-games h1 {
+        margin-top: 150px;
+        width: 100%;
+        margin-left: -70px;
+
+    }
+
+    .play-games p {
+        width: 100%;
+        margin-left: -90px;
+    }
+
+    .carrer-part {
+        width: 90%;
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: -900px;
+    }
+
+    .carrer-container {
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(3, auto);
+        gap: 2px;
+    }
+
+    .carrer-1 {
+        gap: 30px;
+        padding: 0 5px;
+        border: 0.2px solid gray;
+        border-radius: 46px;
+        text-align: center;
+    }
+
+    .carrer-1 img {
+        width: 20%;
+    }
+
+    .carrer-1 h3 {
+        font-size: 12px;
+        font-weight: 400;
+        padding-right: -10px;
+    }
+
+    .carrer-2 {
+        margin-left: 3px;
+    }
+
+    footer {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .footer-container {
+        width: 50%;
+        padding-top: 20px;
+    }
+
+    .footer-item {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-container .footer-item {
+        width: 160%;
+        font-size: 1rem;
+        margin-top: 10px;
+        margin-left: -50px;
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+
+    .brand {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-item-2 {
+        width: 190%;
+        margin-left: -70px;
+        font-size: 9px;
+    }
+
+    .fa-brand-1 {
+        margin: 20px;
+    }
+
+    .last-item {
+        width: 160%;
+        font-size: 9px;
+        margin-bottom: 30px;
+    }
+
+    footer {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .footer-container {
+        width: 50%;
+        padding-top: 20px;
+    }
+
+    .footer-item {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-container .footer-item {
+        width: 160%;
+        font-size: 1rem;
+        margin-top: 10px;
+        margin-left: -50px;
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+
+    .brand {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-item-2 {
+        width: 190%;
+        margin-left: -40px;
+        font-size: 14px;
+    }
+    .footer-item .item-title{
+        padding: 10px;
+    }
+
+    .fa-brand-1 {
+        margin: 20px;
+    }
+
+    .last-item {
+        width: 160%;
+        font-size: 14px;
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+
+    footer {
+        margin-top: -40px;
+    }
+
+
+}
